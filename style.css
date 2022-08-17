@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+.page-wrapper {
+    height: 100%;
+    width: 100%;
+    background-color: #EEF9BF;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    color: #75B79E;
+    height: 150px;
+    margin: auto;
+}
+
+.cartas {
+    margin: 0 auto;
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 45px;
+    justify-content: space-around;
+}
+
+.carta {
+    width: 117px;
+    height: 146px;
+    background-color: #A7E9AF;
+    border-radius: 5px;
+    border: 2px solid #99CEA8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imagemparrot {
+    width: 100px;
+    height: 100px;
+}
